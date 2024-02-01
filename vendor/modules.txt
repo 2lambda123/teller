@@ -266,18 +266,8 @@ github.com/cloudflare/cloudflare-go
 github.com/containerd/cgroups/stats/v1
 # github.com/containerd/containerd v1.6.26
 ## explicit; go 1.19
-github.com/containerd/containerd/errdefs
-github.com/containerd/containerd/log
 github.com/containerd/containerd/pkg/userns
-github.com/containerd/containerd/platforms
 github.com/containerd/containerd/sys
-# github.com/containerd/continuity v0.3.0
-## explicit; go 1.17
-github.com/containerd/continuity/fs
-github.com/containerd/continuity/sysx
-# github.com/containerd/log v0.1.0
-## explicit; go 1.20
-github.com/containerd/log
 # github.com/coreos/go-semver v0.3.0
 ## explicit
 github.com/coreos/go-semver/semver
@@ -309,8 +299,7 @@ github.com/dimchansky/utfbom
 ## explicit
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
-github.com/docker/distribution/registry/api/errcode
-# github.com/docker/docker v20.10.5+incompatible
+# github.com/docker/docker v20.10.27+incompatible
 ## explicit
 github.com/docker/docker/api
 github.com/docker/docker/api/types
@@ -808,7 +797,6 @@ golang.org/x/oauth2/jws
 golang.org/x/oauth2/jwt
 # golang.org/x/sync v0.3.0
 ## explicit; go 1.17
-golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
 # golang.org/x/sys v0.15.0
 ## explicit; go 1.18
